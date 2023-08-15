@@ -64,8 +64,8 @@ h2{
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 60px;
-  height: 250px;
+
+  height: 350px;
   color: #f9faf8;
 }
 
@@ -73,15 +73,20 @@ h4 {
   font-size: 36px;
 }
 
+ .p {
+  position: relative;
+  font-size: 22px;
+}
+
 
 
 .call-background{
   background-color: #3886f2;
-  padding: 25px 90px 25px 100px;
+  padding: 55px 90px 55px 100px;
   display: flex;
   justify-content: center;
   align-items: center;
-  gap:200px;
+  gap: 90px;
   border-radius: 3px;
 }
 
@@ -194,7 +199,7 @@ h4 {
   }
 
   .call-background {
-    display: block;
+    flex-direction: column;
     margin-top: 80px;
   }
 
@@ -204,5 +209,6 @@ h4 {
   .items-section ,.hero{
     flex-direction: column;
   }
+
 }
 
